@@ -24,44 +24,16 @@
   font-family: var(--font-limelight);
   color: var(--color-slategray-100);
 }
-.vector-icon {
-  position: absolute;
-  height: 4.86%;
-  width: 8.97%;
-  top: 92.06%;
-  right: 21.03%;
-  bottom: 3.08%;
-  left: 70%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.home-fill0-wght400-grad0-opsz4-icon,
-.vector-icon1 {
-  position: absolute;
-  top: 773px;
-  left: 58px;
-  width: 50px;
-  height: 50px;
-  overflow: hidden;
-}
-.vector-icon1 {
-  height: 4.03%;
-  width: 12.31%;
-  top: 92.77%;
-  right: 44.62%;
-  bottom: 3.2%;
-  left: 43.08%;
-  max-width: 100%;
-  max-height: 100%;
-}
-.pieces,
+.laundry-child1,
 .required {
   position: absolute;
   top: 282px;
 }
-.pieces {
+.laundry-child1 {
   left: 1px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-yatra-one);
+  color: var(--color-slategray-300);
   display: inline-block;
   width: 170px;
   height: 24px;
@@ -69,27 +41,30 @@
 .required {
   left: 75px;
   font-size: var(--font-size-base);
+  font-weight: 500;
   color: var(--color-slategray-200);
 }
-.required,
 .span {
   font-weight: 500;
   font-family: var(--font-poppins);
 }
 .required1,
-.wetdry-cleaning {
+.rectangle-div{
   position: absolute;
   top: 406px;
-  left: 1px;
   font-size: var(--font-size-base);
+}
+.rectangle-div {
+  left: 1px;
+  color: var(--color-slategray-300);
+  font-family: var(--font-yatra-one);
 }
 .required1 {
   left: 147px;
   font-weight: 500;
-  font-family: var(--font-poppins);
   color: var(--color-slategray-200);
 }
-.laundry-item {
+.ironing {
   position: absolute;
   top: 563px;
   left: 11px;
@@ -106,28 +81,23 @@
   width: 348px;
   height: 46px;
 }
-.ironing,
+.laundry-item,
 .required2 {
   position: absolute;
   top: 533px;
-  left: 1px;
   font-size: var(--font-size-base);
+}
+.ironing{
+  left: 1px;
+  font-family: var(--font-yatra-one);
+  color: var(--color-slategray-300);
 }
 .required2 {
   left: 64px;
   font-weight: 500;
-  font-family: var(--font-poppins);
   color: var(--color-slategray-200);
 }
-.laundry-inner {
-  position: absolute;
-  top: 664px;
-  left: 208px;
-  border-radius: var(--br-16xl);
-  background-color: var(--color-slategray-100);
-  width: 122px;
-  height: 57px;
-}
+
 .view-bill {
   position: absolute;
   top: 675px;
@@ -138,10 +108,17 @@
   display: inline-block;
   width: 90px;
   height: 38px;
+  position: absolute;
+  top: 664px;
+  left: 208px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-slategray-100);
+  width: 122px;
+  height: 57px;
 }
-.laundry-child1,
-.laundry-child2,
-.rectangle-div {
+.pieces,
+.cloth,
+.wetdry-cleaning {
   position: absolute;
   top: 438px;
   left: 11px;
@@ -158,30 +135,25 @@
   width: 348px;
   height: 46px;
 }
-.laundry-child1,
-.laundry-child2 {
+.pieces,
+.cloth {
   top: 314px;
 }
-.laundry-child2 {
+.cloth {
   top: 203px;
 }
-.cloth {
+.laundry-child2{
   position: absolute;
   top: 173px;
   left: 4px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-yatra-one);
+  color: var(--color-slategray-300);
   display: inline-block;
   width: 170px;
   height: 24px;
 }
-.laundry-child3 {
-  position: absolute;
-  top: 664px;
-  left: 56px;
-  border-radius: var(--br-16xl);
-  background-color: var(--color-slategray-100);
-  width: 122px;
-  height: 57px;
-}
+
 .add {
   position: absolute;
   top: 673px;
@@ -192,18 +164,71 @@
   display: inline-block;
   width: 90px;
   height: 38px;
+  position: absolute;
+  top: 664px;
+  left: 56px;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-slategray-100);
+  width: 122px;
+  height: 57px;
 }
 .select,
 .yesno {
   position: absolute;
   top: 213px;
   left: 31px;
-  font-family: var(--font-poppins);
+  font-size: var(--font-size-lg);
   color: var(--color-thistle);
 }
 .yesno {
   top: 571px;
   left: 41px;
+}
+.vector-icon,
+.vector-icon2,
+.vector-icon4 {
+  position: absolute;
+  height: 4.86%;
+  width: 8.97%;
+  top: 92.06%;
+  right: 18.97%;
+  bottom: 3.08%;
+  left: 72.05%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon2,
+.vector-icon4 {
+  height: 4.44%;
+  width: 8.55%;
+  top: 92.21%;
+  right: 73.68%;
+  bottom: 3.35%;
+  left: 17.78%;
+}
+.vector-icon4 {
+  height: 4.03%;
+  width: 12.31%;
+  top: 92.89%;
+  right: 45.64%;
+  bottom: 3.08%;
+  left: 42.05%;
+}
+.home {
+  position: absolute;
+  top: 816px;
+  left: 69px;
+}
+.address,
+.profile {
+  position: absolute;
+  top: 817px;
+  left: 163px;
+}
+.profile {
+  top: 816px;
+  left: 281px;
 }
 .laundry {
   position: relative;
@@ -212,7 +237,7 @@
   height: 844px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-lg);
-  color: var(--color-slategray-300);
-  font-family: var(--font-yatra-one);
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray);
+  font-family: var(--font-poppins);
 }

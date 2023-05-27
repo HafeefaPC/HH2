@@ -11,11 +11,13 @@ body {
   --font-limelight: Limelight;
 
   /* font sizes */
+  --font-size-xs: 12px;
   --font-size-lg: 18px;
   --font-size-base: 16px;
 
   /* Colors */
   --color-white: #fff;
+  --color-dimgray: #635972;
   --color-thistle: rgba(204, 192, 221, 0.67);
   --color-slategray-100: #685c79;
   --color-slategray-200: rgba(104, 92, 121, 0.5);
