@@ -1,18 +1,23 @@
 body {
-    margin: 0;
-    line-height: normal;
-  }
-  
-  :root {
-    /* fonts */
-    --font-milonga: Milonga;
-    --font-poppins: Poppins;
-    --font-limelight: Limelight;
-  
-    /* font sizes */
-    --font-size-base: 16px;
-  
-    /* Colors */
-    --color-slategray: #685c79;
-    --color-lightslategray-100: rgba(148, 139, 160, 0.65);
-  }
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-milonga: Milonga;
+  --font-limelight: Limelight;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-dimgray: #635972;
+  --color-slategray: #685c79;
+  --color-lightslategray-100: rgba(148, 139, 160, 0.65);
+
+  /* border radiuses */
+  --br-mini: 15px;
+}
